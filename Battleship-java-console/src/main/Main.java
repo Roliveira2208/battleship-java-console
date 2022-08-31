@@ -23,10 +23,12 @@
  */
 package main;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Roliveira2208 <roliveira.29655@gmail.com>
- * @version: 2022.08.29
+ * @version 2022.08.31
  */
 public class Main {
 
@@ -34,7 +36,10 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Scanner sc = new Scanner(System.in);
+        String namePlayer1 = "";
+        String namePlayer2 = "";
+        int op;
     }
     
 }
